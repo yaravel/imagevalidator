@@ -1,0 +1,33 @@
+{
+	"name": "yaravel/imagevalidator",
+	"description": "Custom Laravel Validator for image dimensions",
+	"keywords": ["laravel","validator","image"],
+	"homepage": "https://github.com/yaravel/imagevalidator",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alfonzo Diez",
+			"email": "alfonzodiez@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"ext-gd": "*",
+		"ext-bcmath": "*",
+		"illuminate/support": "5.*",
+		"illuminate/translation": "5.*",
+		"illuminate/validation": "5.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.*",
+		"mockery/mockery": "dev-master",
+		"orchestra/testbench": "3.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Yaravel\\ImageValidator\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+  "prefer-stable": true
+}
